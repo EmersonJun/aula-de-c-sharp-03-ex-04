@@ -8,7 +8,6 @@ class program{
         number1 = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("insira o numero 2: ");
         number2 = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("insira o numero 3: ");
         
         if(number1 > number2){
             Console.WriteLine($"numero maior é " + number1);
